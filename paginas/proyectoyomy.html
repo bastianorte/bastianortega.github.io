@@ -1,0 +1,41 @@
+<div class="load-data">
+    <div class="block-content">
+        <div class="project-head">
+          <h1 class="block-title">Yomy</h1>
+          <div class="tags"><span>Categoria : </span>Aplicación Ruby on Rails</div>
+          <div class="tags"><span>Tipo : </span>Trabajo Bootcamp</div>
+          <div class="tags"><span>Fecha : </span>Noviembre 2018</div>
+          <div class="tags"><span><a href="https://yomy.herokuapp.com/" target="_blank">Visitar proyecto aquí</a></span></div>
+        </div>
+        <p class="project-description">Proyecto final de Bootcamp Full-Stack que consistió en diseñar y programar una aplicación relacionada con la salud nutricional familiar. Esta fue montada en Ruby on Rails con HTML, CSS, Javascript y Ajax </p>
+        <div class="project-media">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/299671875"></iframe>
+            </div>
+        </div>
+        <div class="project-nav text-center">
+            <span class="float-left">
+                <a class="open-project" href="gif.html">&leftarrow; Previo proyecto</a>
+            </span>
+            <span class="">
+                <a id="close-project" href="#"><i class="ion-grid"></i></a>
+            </span>
+            <span class="float-right">
+                <a class="open-project" href="videoyomy.html">Siguiente proyecto &rightarrow;</a>
+            </span>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12 btn-email">
+            <a class="btn lowercase">bastianort@gmail.com</a>
+        </div>
+    </div>
+
+    <script>
+        $('#close-project').on('click', function() {
+            $('.content-blocks.pop').removeClass('showx');
+            $('.inline-menu-container').addClass('showx');
+            $('.content-blocks.pop section').empty();
+        });
+    </script>
+</div>

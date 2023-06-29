@@ -1,0 +1,41 @@
+<div class="load-data">
+    <div class="block-content">
+        <div class="project-head">
+          <h1 class="block-title">Yomy</h1>
+          <div class="tags"><span>Categoria : </span>Video Aplicación celular</div>
+          <div class="tags"><span>Tipo : </span>Trabajo universitario</div>
+          <div class="tags"><span>Fecha : </span>Agosto 2016</div>
+        </div>
+        <p class="project-description">Proyecto de titulo que tiene como bajada: “Aplicación que ayudara a los padres a administrar el estado nutricional de su familia, y a la vez a tener mas control sobre la dieta y porciones de cada integrante”.
+                                      Esta es una aplicación de celular que fue elaborada por el proceso de “Design Thinking” y que busca controlar la dieta desde el hogar.</p>
+        <div class="project-media">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/185429755"></iframe>
+            </div>
+        </div>
+        <div class="project-nav text-center">
+            <span class="float-left">
+                <a class="open-project" href="proyectoyomy.html">&leftarrow; Previo proyecto</a>
+            </span>
+            <span class="">
+                <a id="close-project" href="#"><i class="ion-grid"></i></a>
+            </span>
+            <span class="float-right">
+                <a class="open-project" href="yomy.html">Siguiente proyecto &rightarrow;</a>
+            </span>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12 btn-email">
+            <a class="btn lowercase">bastianort@gmail.com</a>
+        </div>
+    </div>
+
+    <script>
+        $('#close-project').on('click', function() {
+            $('.content-blocks.pop').removeClass('showx');
+            $('.inline-menu-container').addClass('showx');
+            $('.content-blocks.pop section').empty();
+        });
+    </script>
+</div>

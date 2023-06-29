@@ -1,0 +1,41 @@
+<div class="load-data">
+    <div class="block-content">
+        <div class="project-head">
+          <h1 class="block-title">Juego video</h1>
+          <div class="tags"><span>Categoria : </span>Video</div>
+          <div class="tags"><span>Tipo : </span>Trabajo universitario</div>
+          <div class="tags"><span>Fecha : </span>Agosto 2014</div>
+        </div>
+        <p class="project-description">Animación realizada Adobe After Effects, en la que se muestra un nivel de un videojuego.
+                                      En esta se tomo el estilo gráfico de videojuegos de genero “Beat’em up”.</p>
+        <div class="project-media">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/160331513"></iframe>
+            </div>
+        </div>
+        <div class="project-nav text-center">
+            <span class="float-left">
+                <a class="open-project" href="yomy.html">&leftarrow; Previo proyecto</a>
+            </span>
+            <span class="">
+                <a id="close-project" href="#"><i class="ion-grid"></i></a>
+            </span>
+            <span class="float-right">
+                <a class="open-project" href="afiches.html">Siguiente proyecto &rightarrow;</a>
+            </span>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12 btn-email">
+            <a class="btn lowercase">bastianort@gmail.com</a>
+        </div>
+    </div>
+
+    <script>
+        $('#close-project').on('click', function() {
+            $('.content-blocks.pop').removeClass('showx');
+            $('.inline-menu-container').addClass('showx');
+            $('.content-blocks.pop section').empty();
+        });
+    </script>
+</div>
